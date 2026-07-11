@@ -1,0 +1,338 @@
+================================================================================
+BIRDLINE TYPOGRAPHY SYSTEM
+Font Pairing & Specifications v1.0
+================================================================================
+
+PRIMARY FONT: PLUS JAKARTA SANS
+────────────────────────────────────────────────────────────────────────────
+Purpose: Body text, descriptions, professional content
+Source: Google Fonts (free)
+URL: https://fonts.google.com/specimen/Plus+Jakarta+Sans
+
+Characteristics:
+  • Professional and clean
+  • Excellent readability at any size
+  • Modern sans-serif with personality
+  • Optimized for screen display
+
+Import:
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+────────────────────────────────────────────────────────────────────────────
+
+ACCENT FONT: POPPINS
+────────────────────────────────────────────────────────────────────────────
+Purpose: Headlines, hero text, modern accents
+Source: Google Fonts (free)
+URL: https://fonts.google.com/specimen/Poppins
+
+Characteristics:
+  • Geometric and trendy
+  • Energetic and modern
+  • Perfect for headlines
+  • Playful but professional
+
+Import:
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+────────────────────────────────────────────────────────────────────────────
+
+TYPOGRAPHY SCALE & SPECIFICATIONS
+────────────────────────────────────────────────────────────────────────────
+
+H1 — HERO HEADING
+  Font:           Poppins
+  Weight:         Bold (700)
+  Size:           52–64px (desktop), 36–44px (mobile)
+  Line-height:    1.2
+  Letter-spacing: -0.02em (tight)
+  Color:          #4D5772 (Dark Navy)
+  Use:            Page titles, hero text, main announcements
+  CSS:
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #4D5772;
+
+H2 — SECTION HEADING
+  Font:           Poppins
+  Weight:         Bold (700)
+  Size:           36–44px (desktop), 28–32px (mobile)
+  Line-height:    1.3
+  Letter-spacing: -0.01em (tight)
+  Color:          #4D5772 (Dark Navy)
+  Spacing:        200px before, 100px after
+  Use:            Section titles, subsections
+  CSS:
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    color: #4D5772;
+    margin-top: 200px;
+    margin-bottom: 100px;
+
+H3 — SUBHEADING
+  Font:           Poppins
+  Weight:         SemiBold (600)
+  Size:           22–28px
+  Line-height:    1.4
+  Letter-spacing: 0em (normal)
+  Color:          #4D5772 (Dark Navy)
+  Use:            Subsection headers, feature titles
+  CSS:
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #4D5772;
+
+BODY TEXT
+  Font:           Plus Jakarta Sans
+  Weight:         Regular (400)
+  Size:           16–18px (desktop), 14–16px (mobile)
+  Line-height:    1.65 (very readable)
+  Letter-spacing: 0em (normal)
+  Color:          #4D5772 (Dark Navy)
+  Paragraph-spacing: 1em
+  Use:            All body copy, paragraphs, descriptions
+  CSS:
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.65;
+    color: #4D5772;
+    margin-bottom: 1em;
+
+SMALL TEXT / CAPTION
+  Font:           Plus Jakarta Sans
+  Weight:         Regular (400)
+  Size:           12–14px
+  Line-height:    1.4
+  Letter-spacing: 0.05em (slight spacing)
+  Color:          #6B7A8D (Medium Gray)
+  Use:            Captions, metadata, dates, small labels
+  CSS:
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    color: #6B7A8D;
+
+LABEL / TAG
+  Font:           Poppins
+  Weight:         Medium (500)
+  Size:           11–12px
+  Text-transform: UPPERCASE
+  Letter-spacing: 0.08em (very spaced)
+  Color:          #4D5772 (Dark Navy)
+  Background:     #F7F4F0 (Warm White)
+  Padding:        6px 12px
+  Border-radius:  100px (pill)
+  Use:            Tags, badges, small calls-to-action
+  CSS:
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #4D5772;
+    background-color: #F7F4F0;
+    padding: 6px 12px;
+    border-radius: 100px;
+
+────────────────────────────────────────────────────────────────────────────
+
+FONT PAIRING LOGIC
+────────────────────────────────────────────────────────────────────────────
+
+Why Plus Jakarta Sans + Poppins?
+
+Plus Jakarta Sans:
+  ✓ Professional and clear → perfect for reading
+  ✓ Modern but not trendy (won't age badly)
+  ✓ Excellent screen rendering
+  ✓ Strong for body/content
+
+Poppins:
+  ✓ Geometric and energetic → perfect for headlines
+  ✓ Trendy but timeless → good for branding
+  ✓ Creates visual hierarchy instantly
+  ✓ Matches "Geometric Guide" aesthetic
+
+Together:
+  ✓ Contrast creates visual interest
+  ✓ Professional + modern vibe
+  ✓ Clear hierarchy without shouting
+  ✓ Optimized for web & print
+
+────────────────────────────────────────────────────────────────────────────
+
+WEIGHT USAGE
+────────────────────────────────────────────────────────────────────────────
+
+Regular (400)
+  ✓ Body text
+  ✓ Captions
+  ✓ Normal UI text
+  ✓ Default reading weight
+
+Medium (500)
+  ✓ Labels and tags
+  ✓ Button text
+  ✓ Slightly emphasized body
+  ✓ Form labels
+
+SemiBold (600)
+  ✓ H3 subheadings
+  ✓ Emphasis within body
+  ✓ Card headers
+  ✓ Less aggressive than bold
+
+Bold (700)
+  ✓ H1 & H2 headlines
+  ✓ Strong emphasis
+  ✓ Feature titles
+  ✓ Hero text
+
+❌ DO NOT USE
+  • Light (300) — too thin, hard to read
+  • Black (900) — unnecessary, use bold instead
+
+────────────────────────────────────────────────────────────────────────────
+
+COLOR + TYPOGRAPHY COMBINATIONS
+────────────────────────────────────────────────────────────────────────────
+
+Primary Button (High Contrast)
+  Font: Poppins Bold
+  Color: #FFFFFF (white)
+  Background: #EC6608 (Neon Orange)
+
+Secondary Button (Outline)
+  Font: Poppins Bold
+  Color: #4D5772 (Dark Navy)
+  Background: #FFFFFF (white)
+  Border: 1px solid #4D5772
+
+Accent Headline (Playful)
+  Font: Poppins Bold
+  Color: #EC6608 (Neon Orange)
+  Background: transparent
+
+Warning/Alert
+  Font: Plus Jakarta Sans Bold
+  Color: #4D5772 (Dark Navy)
+  Background: #FFDE10 (Neon Yellow)
+  Padding: 12px
+
+────────────────────────────────────────────────────────────────────────────
+
+RESPONSIVE TYPOGRAPHY
+────────────────────────────────────────────────────────────────────────────
+
+Mobile (< 768px)
+  H1:   36–40px → 52px
+  H2:   28–32px → 40px
+  H3:   20–22px → 24px
+  Body: 14–16px → 17px
+
+Tablet (768px – 1024px)
+  H1:   44–48px
+  H2:   32–36px
+  H3:   22–24px
+  Body: 16–17px
+
+Desktop (> 1024px)
+  H1:   52–64px
+  H2:   36–44px
+  H3:   22–28px
+  Body: 17–18px
+
+Use CSS media queries:
+  @media (max-width: 768px) {
+    h1 { font-size: 36px; }
+    p { font-size: 14px; }
+  }
+
+────────────────────────────────────────────────────────────────────────────
+
+LINE LENGTH & READABILITY
+────────────────────────────────────────────────────────────────────────────
+
+Optimal line length: 50–75 characters
+  • Too short (< 40): Choppy reading
+  • Too long (> 80): Hard to track line breaks
+  • Sweet spot: 60–70 characters
+
+For Birdline content:
+  ✓ Set max-width: 700px on body text sections
+  ✓ Use 1.65 line-height for breathing room
+  ✓ Add margin-bottom between paragraphs
+
+CSS:
+  .article {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  p {
+    line-height: 1.65;
+    margin-bottom: 1.5em;
+  }
+
+────────────────────────────────────────────────────────────────────────────
+
+DO'S & DON'TS
+────────────────────────────────────────────────────────────────────────────
+
+✅ DO:
+  • Use Poppins for all headlines (H1, H2, H3)
+  • Use Plus Jakarta Sans for all body text
+  • Keep line-height minimum 1.4
+  • Use uppercase only for labels/tags
+  • Match color to hierarchy (navy for text, orange for emphasis)
+  • Test on actual devices before deployment
+
+❌ DON'T:
+  • Mix with other fonts (no Inter, no Montserrat)
+  • Use Poppins for body text (too energetic)
+  • Use Plus Jakarta Sans for headlines (too plain)
+  • Set line-height below 1.4 for body text
+  • Use all-caps for anything except labels
+  • Change font weights beyond what's specified
+  • Use font-sizes smaller than 12px (accessibility)
+
+────────────────────────────────────────────────────────────────────────────
+
+GOOGLE FONTS SETUP (For Web)
+────────────────────────────────────────────────────────────────────────────
+
+In <head> tag:
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+Or via @import in CSS:
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap');
+
+────────────────────────────────────────────────────────────────────────────
+
+VARIABLE FONT OPTIMIZATION
+────────────────────────────────────────────────────────────────────────────
+
+Load only necessary weights:
+
+Plus Jakarta Sans: 400, 500, 600, 700
+Poppins:          500, 600, 700
+
+This keeps file size minimal while maintaining full hierarchy.
+Skip 300 (Light), skip 900 (Black) — they're not used.
+
+────────────────────────────────────────────────────────────────────────────
+
+Last updated: July 2026
+Version: 1.0

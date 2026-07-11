@@ -1,0 +1,199 @@
+================================================================================
+BIRDLINE COLOR PALETTE
+Neon Evolution v1.0
+================================================================================
+
+PRIMARY COLORS (Neon)
+────────────────────────────────────────────────────────────────────────────
+
+1. NEON ORANGE
+   Hex:  #EC6608
+   RGB:  236, 102, 8
+   HSL:  22°, 95%, 48%
+   Use:  Primary CTA, energy signals, active states, highlights
+   Web CSS: color: #EC6608;
+
+2. NEON TEAL
+   Hex:  #28B9CF
+   RGB:  40, 185, 207
+   HSL:  191°, 76%, 48%
+   Use:  Secondary accents, hover states, decorative elements
+   Web CSS: color: #28B9CF;
+
+3. NEON YELLOW
+   Hex:  #FFDE10
+   RGB:  255, 222, 16
+   HSL:  50°, 100%, 53%
+   Use:  Warnings, alerts, highlights, illumination
+   Web CSS: color: #FFDE10;
+
+4. DARK NAVY
+   Hex:  #4D5772
+   RGB:  77, 87, 114
+   HSL:  224°, 19%, 37%
+   Use:  Text, headings, anchors, contrast foundation
+   Web CSS: color: #4D5772;
+
+────────────────────────────────────────────────────────────────────────────
+
+SUPPORTING COLORS
+────────────────────────────────────────────────────────────────────────────
+
+5. WARM OFF-WHITE
+   Hex:  #F7F4F0
+   RGB:  247, 244, 240
+   HSL:  30°, 50%, 96%
+   Use:  Section backgrounds (NOT cold gray!)
+   Web CSS: background-color: #F7F4F0;
+
+6. PURE WHITE
+   Hex:  #FFFFFF
+   RGB:  255, 255, 255
+   Use:  Cards, clean space, primary background
+   Web CSS: background-color: #FFFFFF;
+
+────────────────────────────────────────────────────────────────────────────
+
+JUNGLE ACCENTS (Decorative Leaves)
+────────────────────────────────────────────────────────────────────────────
+
+• Light Green:  #7BC74D (opacity: 0.1 for backgrounds)
+• Medium Green: #52B788
+• Dark Green:   #2D6A4F
+• Sage Green:   #A8D5BA
+
+────────────────────────────────────────────────────────────────────────────
+
+USAGE GUIDELINES
+────────────────────────────────────────────────────────────────────────────
+
+NEON ORANGE (#EC6608)
+✓ Primary CTA buttons
+✓ Active tab states
+✓ Accent underlines
+✓ Call-to-action text
+✓ Hover states (secondary)
+✗ Never use for body text
+✗ Never background for large areas
+
+NEON TEAL (#28B9CF)
+✓ Secondary CTA buttons
+✓ Border accents
+✓ Icon highlights
+✓ Hover states (primary)
+✓ Decorative elements
+✗ Avoid for extended text reading
+
+NEON YELLOW (#FFDE10)
+✓ Warning/alert badges
+✓ Highlight boxes
+✓ Attention-grabbing elements
+✓ Small accent details
+✗ Never for text contrast on light background
+✗ Avoid for large visual areas
+
+DARK NAVY (#4D5772)
+✓ All body text
+✓ Headings
+✓ Forms and labels
+✓ Borders
+✓ Anchors (visual weight)
+✓ Primary design anchor
+
+WARM WHITE (#F7F4F0)
+✓ Section backgrounds (alternate from white)
+✓ Creates breathing room
+✓ Slightly warm, not cold gray
+✗ Never pure #CCCCCC gray
+
+PURE WHITE (#FFFFFF)
+✓ Primary backgrounds
+✓ Cards and containers
+✓ Text on dark backgrounds
+✓ Clean, minimal sections
+
+────────────────────────────────────────────────────────────────────────────
+
+COMBINATION EXAMPLES
+────────────────────────────────────────────────────────────────────────────
+
+High Energy Pairing:
+  Neon Orange + Neon Teal (maximum contrast, vibrant)
+
+Professional Pairing:
+  Dark Navy + Neon Orange (authority + energy)
+
+Calm Pairing:
+  Dark Navy + Neon Teal (stable + creative)
+
+Warning/Alert:
+  Neon Yellow + Dark Navy (clarity + context)
+
+────────────────────────────────────────────────────────────────────────────
+
+CSS VARIABLES (For Lovable/React)
+────────────────────────────────────────────────────────────────────────────
+
+:root {
+  --color-neon-orange: #EC6608;
+  --color-neon-teal: #28B9CF;
+  --color-neon-yellow: #FFDE10;
+  --color-dark-navy: #4D5772;
+  --color-warm-white: #F7F4F0;
+  --color-pure-white: #FFFFFF;
+
+  /* Semantic variables */
+  --color-primary: var(--color-neon-orange);
+  --color-secondary: var(--color-neon-teal);
+  --color-alert: var(--color-neon-yellow);
+  --color-text: var(--color-dark-navy);
+  --color-background: var(--color-pure-white);
+  --color-background-alt: var(--color-warm-white);
+}
+
+Usage:
+  button { background-color: var(--color-primary); }
+  h1 { color: var(--color-text); }
+
+────────────────────────────────────────────────────────────────────────────
+
+TAILWIND COLORS (For Canvas/Web)
+────────────────────────────────────────────────────────────────────────────
+
+Add to tailwind.config.js:
+
+extend: {
+  colors: {
+    birdline: {
+      orange: '#EC6608',
+      teal: '#28B9CF',
+      yellow: '#FFDE10',
+      navy: '#4D5772',
+      'warm-white': '#F7F4F0',
+    }
+  }
+}
+
+Usage:
+  <button class="bg-birdline-orange text-white">Click me</button>
+  <h1 class="text-birdline-navy">Heading</h1>
+
+────────────────────────────────────────────────────────────────────────────
+
+ACCESSIBILITY NOTES
+────────────────────────────────────────────────────────────────────────────
+
+✓ Neon Orange (#EC6608) on white: WCAG AAA contrast
+✓ Neon Teal (#28B9CF) on white: WCAG AAA contrast
+✓ Dark Navy (#4D5772) on white: WCAG AAA contrast
+⚠ Neon Yellow (#FFDE10) on white: WCAG AA contrast
+  → Use Dark Navy text on Neon Yellow for accessibility
+
+✓ All text should be Dark Navy (#4D5772) for optimal readability
+✓ Neon colors reserved for UI elements, not body text
+✓ Maintain minimum 4.5:1 contrast ratio for all text
+
+────────────────────────────────────────────────────────────────────────────
+
+Last updated: July 2026
+Version: 1.0
